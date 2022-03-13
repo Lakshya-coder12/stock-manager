@@ -1,0 +1,29 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 10px;
+  height: 80px;
+  background-color: white;
+  padding: 10px;
+  margin-top: 15px;
+  box-shadow: 2px 2px #babab8;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card-title {
+  color: #1976c2;
+  font-size: large;
+  font-weight: 700;
+}
+
+.companyName {
+  color: #1976c2;
+  font-size: medium;
+  font-weight: 600;
+}
