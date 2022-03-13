@@ -18,4 +18,4 @@ app.use(
 const itemRouter = require("./routers/items");
 app.use("/items", itemRouter);
 
-app.listen(3000, () => console.log("server started"));
+app.listen(3001, () => console.log("server started"));
