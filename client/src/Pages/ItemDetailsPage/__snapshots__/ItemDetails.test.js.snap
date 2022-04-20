@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Item Details page matches snapshot 1`] = `
+<Fragment>
+  <Button
+    className="abs-button"
+    onClick={[Function]}
+  >
+    Home
+  </Button>
+  <div
+    className="item-details"
+  >
+    <div
+      className="item"
+    >
+      <div
+        className="item-title"
+      >
+        Name
+      </div>
+      <span
+        className="value"
+      >
+        Shoes
+      </span>
+    </div>
+    <div
+      className="item"
+    >
+      <div
+        className="item-title"
+      >
+        Company Name
+      </div>
+      <span
+        className="value"
+      >
+        Nike
+      </span>
+    </div>
+    <div
+      className="item"
+    >
+      <div
+        className="item-title"
+      >
+        Stock
+      </div>
+      <span
+        className="value"
+      >
+        100
+      </span>
+    </div>
+    <div
+      className="item"
+    >
+      <div
+        className="item-title"
+      >
+        Date Created
+      </div>
+      <span
+        className="value"
+      >
+        Thu Mar 17 2022
+      </span>
+    </div>
+    <div
+      className="form-btn"
+    >
+      <Link
+        to="/edit/undefined"
+      >
+        <Button>
+          Edit Item
+        </Button>
+      </Link>
+      <Button
+        onClick={[Function]}
+      >
+        Delete Item
+      </Button>
+    </div>
+  </div>
+  <div
+    className="logout"
+  >
+    <span
+      className="username"
+    />
+    <Button
+      onClick={[Function]}
+    >
+      Logout
+    </Button>
+  </div>
+</Fragment>
+`;
