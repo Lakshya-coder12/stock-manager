@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Signup page matches snapshot 1`] = `
+<Fragment>
+  <form
+    className="form"
+    onSubmit={[Function]}
+  >
+    <div
+      className="input-element"
+    >
+      <label
+        className="label"
+      >
+        Name
+      </label>
+      <input
+        className="input"
+        name="name"
+        onChange={[Function]}
+        required={true}
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      className="input-element"
+    >
+      <label
+        className="label"
+      >
+        Email
+      </label>
+      <input
+        className="input"
+        name="email"
+        onChange={[Function]}
+        required={true}
+        type="email"
+        value=""
+      />
+    </div>
+    <div
+      className="input-element"
+    >
+      <label
+        className="label"
+      >
+        Password
+      </label>
+      <input
+        className="input"
+        name="password"
+        onChange={[Function]}
+        required={true}
+        type="password"
+        value=""
+      />
+    </div>
+    <div
+      className="input-element"
+    >
+      <label
+        className="label"
+      >
+        Confirm Password
+      </label>
+      <input
+        className="input"
+        name="confirmPassword"
+        onChange={[Function]}
+        required={true}
+        type="password"
+        value=""
+      />
+    </div>
+    <div
+      className="form-btn"
+    >
+      <Button>
+        Sign Up
+      </Button>
+    </div>
+    <div
+      className="redirect"
+      onClick={[Function]}
+    >
+      Already have an account? Click here to sign in
+    </div>
+  </form>
+</Fragment>
+`;

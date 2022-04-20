@@ -1,0 +1,11 @@
+.redirect {
+  margin-top: 15px;
+  color: #1976c2;
+  font-weight: 600;
+  text-align: center;
+}
+
+.redirect:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
