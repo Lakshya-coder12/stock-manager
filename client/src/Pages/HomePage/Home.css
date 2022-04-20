@@ -1,0 +1,69 @@
+@media (max-width: 480px) {
+  .main {
+    width: 90vw;
+    height: 100vh;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 5px;
+  }
+  .logout {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    display: block;
+    margin-left: auto;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 960px) {
+  .main {
+    width: 50vw;
+    height: 100vh;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 5px;
+  }
+  .logout {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: block;
+    margin-left: auto;
+  }
+}
+
+@media (min-width: 960px) {
+  .main {
+    width: 35vw;
+    height: 100vh;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 5px;
+  }
+  .logout {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    display: block;
+    margin-left: auto;
+  }
+}
+
+.title {
+  color: #1976c2;
+  font-size: x-large;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-align: center;
+  margin: 10px 0px;
+}
+
+.btn1 {
+  margin-right: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.stock-list {
+  padding-bottom: 15px;
+}
