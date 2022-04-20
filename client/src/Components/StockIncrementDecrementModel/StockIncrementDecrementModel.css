@@ -1,0 +1,18 @@
+.model {
+  padding: 20px;
+  width: 50vh;
+  background-color: white;
+  height: 50px;
+}
+
+.group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.model-input {
+  outline: none;
+  width: 60px;
+  border: 0.5px solid #1976d2;
+}

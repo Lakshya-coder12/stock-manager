@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Edit Item page matches snapshot 1`] = `
+<ForwardRef(Dialog)
+  onClose={[Function]}
+  open={true}
+>
+  <div
+    className="model"
+  >
+    <div
+      className="group"
+    >
+      <ForwardRef(ButtonGroup)
+        aria-label="small outlined button group"
+        size="small"
+      >
+        <ForwardRef(Button)
+          onClick={[Function]}
+        >
+          +
+        </ForwardRef(Button)>
+        <input
+          className="model-input"
+          onChange={[Function]}
+          value={100}
+        />
+        <ForwardRef(Button)
+          onClick={[Function]}
+        >
+          -
+        </ForwardRef(Button)>
+      </ForwardRef(ButtonGroup)>
+      <ForwardRef(Button)
+        onClick={[Function]}
+        variant="contained"
+      >
+        Save
+      </ForwardRef(Button)>
+    </div>
+  </div>
+</ForwardRef(Dialog)>
+`;
