@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Edit Item page matches snapshot 1`] = `
+<Fragment>
+  <Button
+    className="abs-button"
+    onClick={[Function]}
+  >
+    Home
+  </Button>
+  <form
+    className="form"
+    onSubmit={[Function]}
+  >
+    <div
+      className="input-element"
+    >
+      <label
+        className="label"
+      >
+        Name
+      </label>
+      <input
+        className="input"
+        name="name"
+        onChange={[Function]}
+        required={true}
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      className="input-element"
+    >
+      <label
+        className="label"
+      >
+        Company Name
+      </label>
+      <input
+        className="input"
+        name="companyName"
+        onChange={[Function]}
+        required={true}
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      className="input-element"
+    >
+      <label
+        className="label"
+      >
+        Stock
+      </label>
+      <input
+        className="input"
+        name="stock"
+        onChange={[Function]}
+        required={true}
+        step={1}
+        type="number"
+        value={0}
+      />
+    </div>
+    <div
+      className="form-btn"
+    >
+      <Button>
+        Update Item
+      </Button>
+    </div>
+  </form>
+  <div
+    className="logout"
+  >
+    <span
+      className="username"
+    />
+    <Button
+      onClick={[Function]}
+    >
+      Logout
+    </Button>
+  </div>
+</Fragment>
+`;
