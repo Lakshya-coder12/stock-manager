@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing StockCardList component matches snapshot 1`] = `
+<div>
+  <StockCard
+    companyName="Nike"
+    id={1}
+    key="1"
+    name="Shoes"
+    stock="100"
+  />
+  <StockCard
+    companyName="Mahindra"
+    id={2}
+    key="2"
+    name="Car"
+    stock="10"
+  />
+</div>
+`;
