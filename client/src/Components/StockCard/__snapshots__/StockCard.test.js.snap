@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing StockCard component matches snapshot 1`] = `
+<div
+  className="card"
+>
+  <div
+    className="arrow"
+  >
+    <Button
+      onClick={[Function]}
+    >
+      Inc/Dec Stock
+    </Button>
+  </div>
+  <div
+    className="card-title"
+  />
+  <div
+    className="info"
+  >
+    <div
+      className="companyName"
+    >
+      Company: undefined
+    </div>
+    <Link
+      to="/details/undefined"
+    >
+      <Button>
+        More Details
+      </Button>
+    </Link>
+  </div>
+  <Connect(StockIncrementDecrementModal)
+    onClose={[Function]}
+    open={false}
+  />
+</div>
+`;

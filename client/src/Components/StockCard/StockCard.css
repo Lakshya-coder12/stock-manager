@@ -1,19 +1,29 @@
 .card {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   border-radius: 10px;
-  height: 80px;
+  height: 100px;
   background-color: white;
   padding: 10px;
   margin-top: 15px;
   box-shadow: 2px 2px #babab8;
 }
 
+.arrow {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  color: #1976c2;
+}
+
 .info {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
 
 .card-title {
